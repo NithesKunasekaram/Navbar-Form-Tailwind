@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-02-Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="bg-[url('Apptron-1Tree.jpg')] bg-cover bg-center min-h-screen">
+
+    <div class="flex justify-between text-4xl">
+        <div class="">PraRoz</div>
+        <div class="text-lg p-3 flex gap-12">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICE</a>
+            <a href="#">DESIGN</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="text-lg p-3 ">
+            <input type="text" class="border-2">
+            <button class="bg-red-200">Search</button>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-5 ml-2">
+        <div class="col-span-3  h-150 flex-col pt-30 ">
+            <div>
+                <h1><span class="text-5xl">Web Design &</span> <br> <span class="text-6xl">Development</span> <br> <span
+                        class="text-5xl">Course</span></h1>
+            </div>
+            <div class="pt-2">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ad, libero saepe <br> mollitia magnam
+                    nam quam hic aut repellendus deserunt?  amet <br>consectetur adipisicing elit.
+                    Ducimus  deserunt?</p>
+            </div>
+            <div class="mt-10">
+                <a href="#" class="border-2 px-8 py-2 rounded-3xl bg-red-500">JOIN US</a>
+            </div>
+
+        </div>
+
+        <div class="col-span-2 m-2 px-40 py-20   ">
+
+            <form class="bg-red-200  text-center leading-10">
+                <fieldset>
+                    <div class="border-2 rounded-lg text-2xl bg-white-900 m-3 p-2 ">
+                        <h1  >Login Here</h1>
+                    </div>
+                    
+                    <div class="">
+            
+                    <input type="email" placeholder="Enter Email Here " required class="border-b"><br><br>
+
+    
+                    <input type="password" placeholder="Enter Password Here " required>
+                    </div>
+
+                    <button type="submit" class="border-2">Login</button>
+  
+                </fieldset>
+
+                <div class="">
+                    <p>Don't have en account? <br>
+                    <a href="#">Sign up</a> here</p>
+                </div>
+
+                <div class="">
+                    <p>Log in with</p> <br>
+
+                    <div class="">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
